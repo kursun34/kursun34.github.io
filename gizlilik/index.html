@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yaverim — Gizlilik Politikası</title>
+<style>
+  :root {
+    --murekkep: #16212b;
+    --soluk: #5b6875;
+    --zemin: #ffffff;
+    --kagit: #f2f7f8;
+    --cizgi: #d8e2e6;
+    --vurgu: #0d94a6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --murekkep: #e8eef1;
+      --soluk: #a3b1bb;
+      --zemin: #12181d;
+      --kagit: #1a232a;
+      --cizgi: #2b3941;
+      --vurgu: #4fc4d3;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--zemin);
+    color: var(--murekkep);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .sayfa { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+  .logo {
+    font-size: 26px; font-weight: 900; letter-spacing: -0.5px;
+    color: var(--vurgu); margin: 0 0 4px;
+  }
+  h1 { font-size: 27px; line-height: 1.25; margin: 22px 0 6px; }
+  h2 {
+    font-size: 18px; margin: 34px 0 8px; padding-top: 18px;
+    border-top: 1px solid var(--cizgi);
+  }
+  h3 { font-size: 15px; margin: 22px 0 6px; color: var(--soluk); text-transform: uppercase; letter-spacing: .4px; }
+  .tarih { color: var(--soluk); font-size: 14px; margin: 0 0 8px; }
+  .ozet {
+    background: var(--kagit); border: 1px solid var(--cizgi);
+    border-radius: 12px; padding: 16px 18px; margin: 24px 0 8px;
+  }
+  .ozet p { margin: 0; }
+  ul { padding-left: 20px; }
+  li { margin: 5px 0; }
+  code {
+    background: var(--kagit); border: 1px solid var(--cizgi);
+    border-radius: 4px; padding: 1px 5px; font-size: 14px;
+  }
+  a { color: var(--vurgu); }
+  .en { color: var(--soluk); }
+  .en h2, .en h1 { color: var(--murekkep); }
+  footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--cizgi); color: var(--soluk); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="sayfa">
+
+  <p class="logo">YAVERİM</p>
+  <h1>Gizlilik Politikası</h1>
+  <p class="tarih">Son güncelleme: 4 Eylül 2026</p>
+
+  <div class="ozet">
+    <p><strong>Kısa özet:</strong> Yaverim hiçbir veri toplamaz. Sunucusu yoktur,
+    internete veri göndermez, analitik ve reklam içermez. Okulunuzdan gelen veri
+    paketi yalnızca kendi telefonunuzda kalır.</p>
+  </div>
+
+  <h2>1. Uygulama hangi verileri işler?</h2>
+  <p>Yaverim, okulunuzun masaüstü yönetim uygulamasının ürettiği veri paketini
+  (<code>.okulpaketi</code> / <code>.sinavpaketi</code>) okur. Bu paket, okulunuzun
+  size verdiği bilgilere göre şunları içerebilir:</p>
+  <ul>
+    <li>Adınız, branşınız, ders programınız ve nöbet bilgileriniz</li>
+    <li>Okulun ders programı ve öğretmen listesi</li>
+    <li>Şube listeleri; öğrenci ad-soyadları ve okul numaraları</li>
+    <li>Sınav oturumları, salon ve oturma planları, gözetmen görevleri</li>
+    <li>Yıllık plan ve kazanım takvimi</li>
+  </ul>
+  <p>Bu verileri uygulama <em>toplamaz</em>. Veriler yalnızca <strong>siz bir
+  paket dosyasını uygulamaya eklediğinizde</strong> cihaza girer.</p>
+
+  <h2>2. Veriler nerede saklanır?</h2>
+  <p>Yalnızca telefonunuzun içinde, uygulamanın kendi alanında. Geliştirici bu
+  verilere erişemez; bir sunucuya kopyalanmaz.</p>
+  <p><strong>Dürüst bir not:</strong> iPhone'unuzda iCloud yedeklemesi açıksa,
+  iOS diğer uygulamalarda olduğu gibi bu verileri de kendi Apple Hesabınıza ait
+  yedeğe dâhil edebilir. Bu yedek Apple ile sizin aranızdadır; geliştiricinin
+  erişimi yoktur. İstemiyorsanız iPhone Ayarları'ndan Yaverim için yedeklemeyi
+  kapatabilirsiniz.</p>
+
+  <h2>3. Veri gönderimi</h2>
+  <p>Uygulama kendiliğinden hiçbir veri göndermez — hiçbir ağ isteği yapmaz.</p>
+  <p>Tek istisna sizin başlattığınız paylaşımdır: sınav sonrası oluşturulan
+  <em>sonuç paketi</em>, siz Paylaş menüsünden bir yol seçtiğinizde (e-posta,
+  mesajlaşma uygulaması, Dosyalar vb.) okul idaresine iletilir. Nereye ve nasıl
+  gideceğine tamamen siz karar verirsiniz.</p>
+
+  <h2>4. Kamera</h2>
+  <p>Kamera yalnızca tek bir iş için kullanılır: akıllı tahtanın ekranındaki QR
+  kodunu okuyup tahta açılış kodunu hesaplamak. Görüntü kaydedilmez, saklanmaz,
+  hiçbir yere gönderilmez. Kamera izni vermezseniz uygulamanın geri kalanı
+  normal çalışır.</p>
+
+  <h2>5. Bildirimler</h2>
+  <p>Ders ve nöbet hatırlatmaları telefonunuzun içinde üretilir. Bildirim
+  içerikleri hiçbir sunucudan gelmez ve hiçbir sunucuya gitmez.</p>
+
+  <h2>6. Üçüncü taraflar</h2>
+  <p>Yaverim hiçbir üçüncü taraf kitaplığı, analitik aracı, reklam ağı veya
+  izleme teknolojisi içermez. Sizi tanımlayan bir kimlik üretmez, cihaz
+  tanımlayıcılarını okumaz.</p>
+  <p>Uygulama içinde EBA, MEB Ajanda, MEBBİS ve e-Okul'a kısayollar bulunur.
+  Bunlara dokunduğunuzda ilgili uygulama veya web sitesi açılır ve o noktadan
+  sonra o hizmetin kendi gizlilik politikası geçerlidir. Yaverim bu hizmetlere
+  sizin adınıza hiçbir bilgi göndermez.</p>
+
+  <h2>7. Öğrenci verileri ve KVKK</h2>
+  <p>Uygulamadaki öğrenci bilgileri okul tarafından, resmî görevinizin gereği
+  olarak size sağlanır. Bu verilerin <strong>veri sorumlusu okulunuz ve bağlı
+  bulunduğu kurumdur</strong>; Yaverim yalnızca bu bilgileri kendi cihazınızda
+  görüntülemenizi sağlayan bir araçtır. Uygulama geliştiricisi bu verilere hiçbir
+  şekilde erişemez, onları işlemez ve saklamaz.</p>
+  <p>Yaverim öğrenciler için tasarlanmamıştır; kullanıcısı öğretmen ve okul
+  idarecileridir.</p>
+
+  <h2>8. Verilerinizi silme</h2>
+  <ul>
+    <li>Uygulama içinden: <strong>Ayarlar → Tüm Veriyi Sıfırla</strong>. Paketten
+    gelen her şey silinir.</li>
+    <li>Uygulamayı telefondan silmek de uygulamanın tuttuğu bütün verileri siler.</li>
+  </ul>
+  <p>Geliştiricide sizinle ilgili silinecek bir kayıt bulunmaz, çünkü hiçbir
+  kayıt tutulmaz.</p>
+
+  <h2>9. Değişiklikler</h2>
+  <p>Bu politika değişirse bu sayfa güncellenir ve yukarıdaki tarih yenilenir.</p>
+
+  <h2>10. İletişim</h2>
+  <p>Gizlilikle ilgili sorularınız için: <a href="mailto:ILETISIM_EPOSTA">ILETISIM_EPOSTA</a></p>
+
+  <div class="en">
+    <h2>Privacy Policy (English summary)</h2>
+    <p><strong>Yaverim collects no data.</strong> It has no server, makes no network
+    requests, and contains no analytics, advertising or tracking libraries, and no
+    third-party SDKs of any kind.</p>
+    <h3>What it processes</h3>
+    <p>Yaverim reads a data package produced by the school's own desktop management
+    software and added to the app by the user. Depending on what the school
+    includes, this may contain the teacher's timetable and duty roster, the school
+    timetable and staff list, class lists with student names and school numbers,
+    exam sessions with seating plans and invigilation duties, and the annual
+    teaching plan.</p>
+    <h3>Storage and transmission</h3>
+    <p>All of this stays on the device, inside the app's own container. The
+    developer cannot access it. If the user has iCloud Backup enabled, iOS may
+    include this data in the user's own Apple Account backup, as it does for other
+    apps; that backup is between the user and Apple. Nothing is transmitted by the
+    app itself. The only outbound data is the exam <em>result package</em>, which
+    the user explicitly shares with their school administration through a
+    destination of their own choosing.</p>
+    <h3>Camera</h3>
+    <p>The camera is used solely to read the QR code shown on a classroom smart
+    board in order to compute its unlock code. No image is stored or transmitted.</p>
+    <h3>Student data</h3>
+    <p>Student information is provided to the teacher by the school in the course
+    of their official duties. The school and its governing authority are the data
+    controllers; Yaverim is only a viewer on the teacher's own device. The app is
+    not directed to children — its users are teachers and school administrators.</p>
+    <h3>Deletion</h3>
+    <p>Settings → "Tüm Veriyi Sıfırla" erases everything the package supplied.
+    Deleting the app also removes all of its data. The developer holds no records
+    to delete.</p>
+    <h3>Contact</h3>
+    <p><a href="mailto:ILETISIM_EPOSTA">ILETISIM_EPOSTA</a></p>
+  </div>
+
+  <footer>
+    Yaverim · Öğretmenler için ders programı ve sınav görev takibi.
+  </footer>
+
+</div>
+</body>
+</html>
