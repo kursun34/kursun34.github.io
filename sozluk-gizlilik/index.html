@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yaverim Sözlük — Gizlilik Politikası</title>
+<style>
+  :root {
+    --murekkep: #16212b;
+    --soluk: #5b6875;
+    --zemin: #ffffff;
+    --kagit: #f2f7f8;
+    --cizgi: #d8e2e6;
+    --vurgu: #0d94a6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --murekkep: #e8eef1;
+      --soluk: #a3b1bb;
+      --zemin: #12181d;
+      --kagit: #1a232a;
+      --cizgi: #2b3941;
+      --vurgu: #4fc4d3;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--zemin);
+    color: var(--murekkep);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .sayfa { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+  .logo {
+    font-size: 26px; font-weight: 900; letter-spacing: -0.5px;
+    color: var(--vurgu); margin: 0 0 4px;
+  }
+  h1 { font-size: 27px; line-height: 1.25; margin: 22px 0 6px; }
+  h2 {
+    font-size: 18px; margin: 34px 0 8px; padding-top: 18px;
+    border-top: 1px solid var(--cizgi);
+  }
+  h3 { font-size: 15px; margin: 22px 0 6px; color: var(--soluk); text-transform: uppercase; letter-spacing: .4px; }
+  .tarih { color: var(--soluk); font-size: 14px; margin: 0 0 8px; }
+  .ozet {
+    background: var(--kagit); border: 1px solid var(--cizgi);
+    border-radius: 12px; padding: 16px 18px; margin: 24px 0 8px;
+  }
+  .ozet p { margin: 0; }
+  ul { padding-left: 20px; }
+  li { margin: 5px 0; }
+  a { color: var(--vurgu); }
+  .en { color: var(--soluk); }
+  .en h2, .en h1 { color: var(--murekkep); }
+  footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--cizgi); color: var(--soluk); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="sayfa">
+
+  <p class="logo">YAVERİM SÖZLÜK</p>
+  <h1>Gizlilik Politikası</h1>
+  <p class="tarih">Son güncelleme: 31 Ekim 2026</p>
+
+  <div class="ozet">
+    <p><strong>Kısa özet:</strong> Yaverim Sözlük hesap istemez; reklam, analitik ve
+    izleme içermez. Favorileriniz ve arama geçmişiniz yalnızca telefonunuzda kalır.
+    Yalnızca çevrimiçi çeviri ya da telaffuz kullandığınızda, aradığınız
+    <em>kelime</em> aşağıda adı geçen sözlük servislerine gönderilir.</p>
+  </div>
+
+  <h2>1. Telefonda tutulan bilgiler</h2>
+  <ul>
+    <li><strong>Arama geçmişi:</strong> son 20 arama.</li>
+    <li><strong>Favoriler:</strong> yıldızla işaretlediğiniz kelimeler.</li>
+  </ul>
+  <p>Bu bilgiler uygulamanın telefondaki kendi alanında saklanır. Geliştiriciye ya da
+  herhangi bir sunucuya gönderilmez. Sözlüğün kendisi uygulamanın içindedir; normal
+  aramalar internet kullanmadan, telefonda yapılır.</p>
+  <p><strong>Dürüst bir not:</strong> Telefonunuzda Google yedeklemesi açıksa, Android
+  diğer uygulamalarda olduğu gibi favori ve geçmiş listelerini de kendi Google
+  Hesabınıza ait yedeğe dâhil edebilir. Bu yedek Google ile sizin aranızdadır;
+  geliştiricinin erişimi yoktur.</p>
+
+  <h2>2. İnternete giden bilgiler</h2>
+  <p>Uygulama iki durumda internete bağlanır. Her ikisinde de gönderilen tek içerik
+  aradığınız kelime ya da ifadedir:</p>
+  <ul>
+    <li><strong>Çevrimiçi çeviri:</strong> Aradığınız kelime telefondaki sözlükte hiç
+    yoksa ve arama tuşuna basarsanız, kelime Türkçe karşılığı için
+    <a href="https://mymemory.translated.net/">MyMemory</a> çeviri servisine,
+    İngilizce tanımı için <a href="https://dictionaryapi.dev/">Free Dictionary API</a>
+    servisine gönderilir.</li>
+    <li><strong>Telaffuz:</strong> US / UK düğmesine bastığınızda, kelimenin ses kaydını
+    bulmak için kelime Free Dictionary API'ye gönderilir ve ses kaydı oradan
+    (Wikimedia Commons kaynaklı) indirilir. Kayıt yoksa ya da internet yoksa, kelimeyi
+    telefonunuzun kendi ses motoru okur.</li>
+  </ul>
+  <p>Bu isteklerle adınız, hesap bilginiz, konumunuz ya da cihaz kimliğiniz
+  <em>gönderilmez</em>. Her internet bağlantısında olduğu gibi bu servisler isteğin
+  geldiği IP adresini görebilir. Gönderilen kelimeyi nasıl işledikleri kendi gizlilik
+  politikalarına tabidir; geliştiricinin bu servislerde size ait bir kaydı yoktur.</p>
+  <p>Bu servisleri hiç kullanmak istemezseniz, sonucu telefondaki sözlükte çıkan
+  kelimelerle yetinebilir ve telaffuz düğmelerine internet kapalıyken basabilirsiniz.</p>
+
+  <h2>3. İzinler</h2>
+  <p>Uygulama yalnızca <strong>internet</strong> erişimi ister (yukarıdaki çevrimiçi
+  çeviri ve telaffuz için). Mikrofon, kamera, konum, rehber, fotoğraf ya da dosya
+  izni istemez.</p>
+
+  <h2>4. Üçüncü taraflar</h2>
+  <p>Yaverim Sözlük reklam ağı, analitik aracı ya da izleme teknolojisi içermez.
+  Sizi tanımlayan bir kimlik üretmez. 2. maddedeki iki sözlük servisi dışında hiçbir
+  üçüncü tarafa bilgi göndermez.</p>
+
+  <h2>5. Çocuklar</h2>
+  <p>Uygulama genel kitleye yönelik bir sözlüktür; 13 yaşın altındaki çocuklara
+  yönelik değildir ve kimseden bilerek kişisel bilgi toplamaz.</p>
+
+  <h2>6. Bilgilerinizi silme</h2>
+  <ul>
+    <li><strong>Geçmiş</strong> sekmesindeki <strong>Temizle</strong> düğmesi arama geçmişini siler.</li>
+    <li>Yıldıza yeniden dokunmak kelimeyi favorilerden çıkarır.</li>
+    <li>Uygulamayı telefondan silmek, uygulamanın tuttuğu bütün bilgileri siler.</li>
+  </ul>
+  <p>Geliştiricide sizinle ilgili silinecek bir kayıt bulunmaz, çünkü hiçbir kayıt
+  tutulmaz.</p>
+
+  <h2>7. Sözlük verisinin kaynağı</h2>
+  <p>Telefondaki sözlük verisinin büyük bölümü Vikisözlük'ten (Wiktionary) alınmıştır
+  ve <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+  lisansıyla kullanılır.</p>
+
+  <h2>8. Değişiklikler</h2>
+  <p>Bu politika değişirse bu sayfa güncellenir ve yukarıdaki tarih yenilenir.</p>
+
+  <h2>9. Geliştirici ve iletişim</h2>
+  <p>Yaverim Sözlük'ün geliştiricisi <strong>Aysen Kursun</strong>'dur. Gizlilikle
+  ilgili sorularınız ve talepleriniz için:
+  <a href="mailto:aysenkursun07@gmail.com">aysenkursun07@gmail.com</a></p>
+
+  <div class="en">
+    <h2>Privacy Policy (English summary)</h2>
+    <p><strong>Yaverim Sözlük requires no account and contains no ads, analytics or
+    tracking.</strong> Search history (last 20 searches) and favorites are stored only
+    on the device, inside the app's own storage. If Google backup is enabled, Android
+    may include them in the user's own Google Account backup; the developer has no
+    access to it.</p>
+    <h3>What leaves the device</h3>
+    <p>Normal searches run offline against the dictionary bundled in the app. Only the
+    searched word is sent over the internet, in two cases: (1) when the word is not in
+    the bundled dictionary and the user presses search, it is sent to the MyMemory
+    translation service and to the Free Dictionary API; (2) when the user presses a
+    pronunciation button, it is sent to the Free Dictionary API to fetch a recording
+    (sourced from Wikimedia Commons), otherwise the device's own text-to-speech engine
+    is used. No name, account, location or device identifier is sent. As with any
+    internet request, these services can see the requesting IP address; their own
+    privacy policies apply.</p>
+    <h3>Permissions</h3>
+    <p>Internet only. No microphone, camera, location, contacts, photos or files.</p>
+    <h3>Children</h3>
+    <p>The app is a general-audience dictionary and is not directed to children under
+    13.</p>
+    <h3>Deletion</h3>
+    <p>History can be cleared in the History tab; favorites are removed by tapping the
+    star again; uninstalling the app removes all of its data. The developer holds no
+    records to delete.</p>
+    <h3>Developer and contact</h3>
+    <p>Yaverim Sözlük is developed by <strong>Aysen Kursun</strong>. For privacy
+    questions or requests:
+    <a href="mailto:aysenkursun07@gmail.com">aysenkursun07@gmail.com</a></p>
+  </div>
+
+  <footer>
+    Yaverim Sözlük · İngilizce – Türkçe sözlük.<br>
+    Geliştirici: Aysen Kursun
+  </footer>
+
+</div>
+</body>
+</html>
